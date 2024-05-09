@@ -1,0 +1,530 @@
+/* Login Page  */
+
+.login-container ,.containerAuth,.containerAuth {
+  background-color: #ffffff48;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btnLogin {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4b7545;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+body{
+    background-color: #ffffff; 
+    background-image: url(../Media/img/LightMode/Homepage-light.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+
+        
+  }
+
+  .loginpage,.HomePageAuterty{
+      
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .navbar{
+    background-image: url(../Media/img/LightMode/NavbarBackground.svg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    border-top-left-radius:0px ; 
+    border-bottom-left-radius: 346px;
+    border-top-right-radius:0px ; 
+    border-bottom-right-radius: 346px;
+    box-shadow: 4px 4px rgba(45, 44, 44, 0.125);
+    
+    
+  }
+  
+  .logocontainer{
+    position: relative;
+    top: -40%;
+  }
+
+  .logocontainerHomePage{
+    position: relative;
+    top: -40%; 
+    left: 4%;
+  }
+
+ 
+
+  .navLogo{
+    padding-top: 0px;
+    position: relative;
+    right: -20%;
+  }
+  
+  .nav-item a{
+    color:#365156;
+  }
+  
+  .navbar-brand{
+    padding-left: 30px;
+    
+  }
+  
+  .Loginbtn{
+    background-image: url(../Media/img/LightMode/btnBackground.svg);
+    background-size: cover;
+    box-shadow: 3px 3px rgba(45, 44, 44, 0.125);
+    border: 0px ;
+    width: 329px;
+    height: 60px;
+    
+  }
+  
+  .btn-container{
+    padding-top: 30px;
+  }
+  
+  #Welcom-message{
+    position: relative;
+    top: 30%;
+    right: 25%;
+  }
+
+  
+
+/* style user page Light mode */
+
+.userhomepage, .HomePageAuterty{
+  background-color: #ffffff; 
+  background-image: url(../Media/img/LightMode/UserpageBackgrond-light.svg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 0px;
+  background-attachment: fixed;
+}
+
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-image: url(../Media/img/LightMode/SideNavbaar_lightmode.svg);
+  border-top-left-radius: 300px;
+  box-shadow: 2px 2px #4f9d659b;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav button {
+  position: relative;
+  float: right;
+  background-color:#f1f1f100;
+  border:none ;
+  top:7%;
+  padding: 10px 10px 10px 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 18px;
+  color: #032F0A;
+  display: block;
+
+  width: 145px;
+}
+
+.sidenav button:hover {
+  background-color: #f1f1f1;
+  color: #032F0A;
+  border-bottom-right-radius: 26px;
+  border-top-right-radius: 26px;
+  box-shadow: 4px 4px 4px 4px #4f9d659b;
+}
+
+.sidenav button:focus {
+  background-color: #f1f1f1;
+  color: #032F0A;
+  border-bottom-right-radius: 26px;
+  border-top-right-radius: 26px;
+  box-shadow: 4px 4px 4px 4px #4f9d659b;
+}
+
+
+.welcomeMessageUserPage{
+  position: relative;
+  float: right;
+  padding-top: 5%;
+  padding-right: 10%;
+  margin: 0px;
+  color: #f1f1f1;
+
+}
+
+.MaincontantContainer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 150px;
+  box-shadow: 4px 4px 4px 4px #4f9d659b;
+  height: 74.9%;
+  background-color: #f1f1f1e4; 
+  border-top-left-radius:54px ; 
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.card{
+  background-color: #f1f1f1d4;
+  box-shadow: #4f9d659b 4px 4px;
+  border-radius: 50px;
+  height: 300px;
+  
+}
+
+
+#UsernotificationContainer ,#SummaryContainer,#SNotificationContainer{
+  margin : 30px;
+  margin-top: 5%;
+  border-radius: 25px;
+  text-align: right;
+}
+
+#UsernotificationContainer ,#SummaryContainer{
+  height: 300px;
+  margin-bottom: 10x;
+  padding: 0px;
+  
+}
+
+
+#SNotificationContainer{
+  height: 140px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+
+ }
+.row{
+  margin: 50px;
+  margin-bottom: 0px;
+  padding-right: 90px;
+  padding-left: 90px;
+} 
+
+.SummaryChar{
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+
+/* syle User notification pront  */
+.notificationlabel{
+  text-align: center;
+  border-radius:7px ;
+  color: #f1f1f1;
+  padding: 5%;
+  
+}
+
+.notificationlabel h6{
+
+  background-color: #4F9D65;
+  border-radius: 7px;
+
+}
+#Notifications-page{
+  display: inline-block;
+}
+.col-10{
+  margin: 0px; 
+  padding: 0px;
+   padding-right: 10px;
+    padding-left: 10px;
+}
+
+.card-body .row{
+  padding: 10px;
+  padding-bottom: 4px;
+}
+
+.card-body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.card-body {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+
+/* Styling NewTicket Page */
+.rtl ,.Manageacountport{
+  direction: rtl;
+}
+
+.Reportform ,.Manageacountport{
+  width: 80%;
+  margin: 10%;
+  margin-top: 1%;
+}
+
+/* Styling Manegaccount container  */
+.accordion {
+
+  border-radius:10px ;
+  margin-top: 5%;
+  background-color: rgba(240, 248, 255, 0.018);
+  box-shadow: 1px 1px 1px 1px #4f9d659b;
+
+}
+
+.accordion-header{
+  border-radius:20px ;
+  
+
+}
+
+.accordion-item button{
+  background-color:rgba(255, 255, 255, 0);
+  border-radius: 10px;
+}
+
+div.accordion-item{
+  border-radius:10px;
+  background-color: #ffffff68;
+  
+}
+
+h2.accordion-header{
+  text-align: right;
+}
+
+table{
+  border-radius: 20px;
+  
+}
+
+
+.Reportform input:focus ,.Reportform textarea:focus{
+  box-shadow: 1px 1px 1px 1px #4f9d659b;
+  border: #4F9D65 1.5px;
+
+}
+
+.filebtn{
+  background-color: #4F9D65;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 140px;
+  margin-right: 40%;
+  padding: 5px;
+
+  border:none ;
+ 
+  
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.filebtn:hover{
+    box-shadow: #032f0a57 2px 2px 2px 2px;
+}
+
+/* Autheraty control Panel Desigen */
+
+/* .AutheratyControlPanel{
+  background-color: #f1f1f1a5;
+  box-shadow: #032f0a57 2px 2px 2px 2px;
+  height: 1000px;
+  width: 80%;
+  position: relative;
+  right: 10%;
+  left: 10%;
+  
+} */
+
+/* CSS for modal overlay */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* ensure it's above other content */
+}
+
+#overlaycontent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.reports-container {
+  direction: rtl; /* Right to Left direction */
+}
+
+.report {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/*Desien  AUtheraty Page  */
+
+.Reporttable{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+
+#datatable-details{
+  width: 600px;
+  margin: 10px;
+ 
+}
+
+#datatable-id{
+  margin: 10px;
+ 
+}
+#datatable-safetyRating ,.btnManage{
+  margin: 10px;
+  width: 90px;
+}
+
+#datatable-state{
+  margin: 10px;
+  width: 120px;
+}
+
+/* Add a general style for mobile devices */
+@media only screen and (max-width: 768px) {
+  .sidenav {
+    width: 100px;
+  }
+  
+  .navLogo {
+    right: -10%;
+  }
+
+  .MaincontantContainer {
+    right: 0;
+  }
+
+  .card {
+    height: auto;
+  }
+
+  .SummaryChar,
+  .card-body .row {
+    overflow-y: auto;
+  }
+
+  .filebtn {
+    margin-right: 10%;
+  }
+
+  .AutheratyControlPanel {
+    width: 100%;
+    right: 0;
+    left: 0;
+  }
+}
+
+/* Add specific styles for larger screens */
+@media only screen and (min-width: 769px) {
+  .sidenav {
+    width: 150px;
+  }
+
+  .navLogo {
+    right: -20%;
+  }
+
+  .MaincontantContainer {
+    right: 150px;
+  }
+
+  .card {
+    height: 300px;
+  }
+
+  .SummaryChar,
+  .card-body .row {
+    overflow: hidden;
+  }
+
+  .filebtn {
+    margin-right: 40%;
+  }
+
+  .AutheratyControlPanel {
+    width: 80%;
+    right: 10%;
+    left: 10%;
+  }
+}
