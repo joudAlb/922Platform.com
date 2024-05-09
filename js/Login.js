@@ -23,5 +23,5 @@
 // Move this outside of the DOMContentLoaded event listener
 function BackToHome() {
     // Redirect to the home page
-    window.location.href = 'homePage.html'; // Change 'home_page.html' to your home page URL
+    window.location.href = 'index.html'; // Change 'home_page.html' to your home page URL
 }
